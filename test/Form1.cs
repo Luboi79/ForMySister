@@ -19,13 +19,8 @@ namespace test
 
         private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
         {
-            // Создаем новый экземпляр Form2
             Random form2 = new Random();
-
-            // Показываем Form2
             form2.Show();
-
-            // Скрываем Form1 (не закрываем, чтобы можно было вернуться назад)
             this.Hide();
         }
 
