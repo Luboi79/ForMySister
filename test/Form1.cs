@@ -28,5 +28,12 @@ namespace test
         {
 
         }
+
+        private void pictureBox2_MouseDown(object sender, MouseEventArgs e)
+        {
+            ConRF form2 = new ConRF();
+            form2.Show();
+            this.Hide();
+        }
     }
 }
